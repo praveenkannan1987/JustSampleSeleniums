@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Suite]" parallel="none" data-provider-thread-count="5">
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="common"/>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="project1.CreateLead">
+        <methods>
+          <include name="login"/>
+          <include name="createLead1"/>
+        </methods>
+      </class> <!-- project1.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

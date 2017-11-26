@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2923" started-at="2017-05-27T07:26:05Z" finished-at="2017-05-27T07:26:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2923" started-at="2017-05-27T07:26:05Z" finished-at="2017-05-27T07:26:08Z">
+      <class name="day9and10.LearnReport">
+        <test-method status="PASS" signature="sample()[pri:0, instance:day9and10.LearnReport@30a502]" name="sample" duration-ms="2860" started-at="2017-05-27T12:56:05Z" finished-at="2017-05-27T12:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- day9and10.LearnReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
